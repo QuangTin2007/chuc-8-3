@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
 <meta charset="UTF-8">
 <title>Happy 8/3</title>
@@ -10,18 +9,24 @@
 <body>
 
 <div class="container">
+    <h1>🌸 Happy Women's Day 🌸</h1>
+    <p>Gửi đến cô gái đặc biệt 💖</p>
 
-<h1>🌸 Happy Women's Day 🌸</h1>
+    <button onclick="openLetter()">Mở thư 💌</button>
 
-<p>Gửi đến cô gái đặc biệt 💖</p>
-
-<button onclick="openLetter()">Mở thư 💌</button>
-
+    <p id="letter" style="display:none; margin-top:20px;">
+        Chúc bạn một ngày 8/3 thật vui vẻ, luôn xinh đẹp và hạnh phúc 💖
+    </p>
 </div>
 
 <div id="hearts"></div>
 
-<script src="js/script.js"></script>
+<script>
+function openLetter(){
+    document.getElementById("letter").style.display = "block";
+}
+</script>
 
 </body>
 </html>
+
