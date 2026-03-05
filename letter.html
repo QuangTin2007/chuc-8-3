@@ -1,51 +1,41 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="vi">
 <head>
-<meta charset="UTF-8">
-<title>Thư 8/3</title>
-<style>
-
-body{
-background:#ffe6f0;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-font-family:Arial;
-}
-
-.card{
-background:white;
-padding:40px;
-border-radius:20px;
-width:350px;
-text-align:center;
-box-shadow:0 10px 30px rgba(0,0,0,0.2);
-}
-
-h2{
-color:#e91e63;
-}
-
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💌 Thư Gửi Em</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 </head>
+<body class="letter-page">
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+  <div class="bg-glow"></div>
+  <div class="petals-container" id="petals"></div>
+  <div class="stars" id="stars"></div>
 
-<body>
+  <div class="letter-page-wrapper">
+    <a href="index.html" class="back-btn">← Quay lại</a>
+    <div class="letter-card">
+      <div class="letter-top-bar"></div>
+      <span class="letter-rose">🌹</span>
+      <div class="letter-header">💌 Gửi người anh yêu thương...</div>
+      <div class="letter-body">
+        <p>Em yêu,</p>
+        <p>Hôm nay là ngày 8 tháng 3, ngày mà cả thế giới dành để tôn vinh những người phụ nữ đặc biệt. Và với anh, người đặc biệt nhất chính là em.</p>
+        <p>Cảm ơn em vì đã luôn là ánh nắng ấm áp trong những ngày mưa, vì nụ cười của em luôn khiến mọi lo âu tan biến, vì bên cạnh em anh luôn cảm thấy mình là phiên bản tốt nhất của chính mình.</p>
+        <p>Chúc em mãi mãi hạnh phúc, luôn xinh đẹp và tỏa sáng như cách em vẫn đang làm mỗi ngày bên anh. 💕</p>
+        <p>Dù thời gian có trôi qua, dù mọi thứ có thay đổi — tình cảm anh dành cho em sẽ mãi không đổi thay.</p>
+      </div>
+      <div class="letter-divider"><span>♥</span></div>
+      <div class="letter-signature">Của anh — mãi mãi ♥</div>
+      <div class="letter-flowers">
+        <span>🌹</span><span>🌸</span><span>💮</span><span>🌸</span><span>🌹</span>
+      </div>
+    </div>
+  </div>
 
-<div class="card">
-
-<h2>💌 Lời Chúc</h2>
-
-<p>
-Chúc bạn luôn xinh đẹp, vui vẻ và đạt được mọi điều mình mong muốn.
-Cảm ơn vì đã xuất hiện và làm thế giới này dễ thương hơn.
-</p>
-
-<a href="../index.html">Quay lại</a>
-
-</div>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
+
