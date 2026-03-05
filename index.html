@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<title>Happy 8/3</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chúc Mừng 8/3 💕</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+  <div class="bg-glow"></div>
+  <div class="petals-container" id="petals"></div>
+  <div class="stars" id="stars"></div>
 
-<div class="container">
-    <h1>🌸 Happy Women's Day 🌸</h1>
-    <p>Gửi đến cô gái đặc biệt 💖</p>
+  <section class="hero">
+    <div class="date-badge">8·3</div>
+    <div class="tag">✦ Ngày Quốc Tế Phụ Nữ ✦</div>
+    <h1 class="main-title">Chúc Mừng<br/><span>8 Tháng 3</span></h1>
+    <p class="subtitle">Dành tặng người con gái đặc biệt nhất trong cuộc đời anh</p>
+    <div class="heart-divider"><span class="heart-icon">♥</span></div>
+    <div class="envelope-wrapper">
+      <button class="open-btn" id="openLetterBtn">✉ Mở Thư Của Em</button>
+    </div>
+    <div class="flowers">
+      <span>🌹</span><span>🌸</span><span>💐</span><span>🌸</span><span>🌹</span>
+    </div>
+  </section>
 
-    <button onclick="openLetter()">Mở thư 💌</button>
+  <section class="quote-section">
+    <blockquote class="quote-text">
+      "Có những người chỉ cần hiện diện thôi đã khiến cả thế giới trở nên đẹp hơn — em chính là người như vậy với anh."
+    </blockquote>
+  </section>
 
-    <p id="letter" style="display:none; margin-top:20px;">
-        Chúc bạn một ngày 8/3 thật vui vẻ, luôn xinh đẹp và hạnh phúc 💖
-    </p>
-</div>
-
-<div id="hearts"></div>
-
-<script>
-function openLetter(){
-    document.getElementById("letter").style.display = "block";
-}
-</script>
+  <script src="script.js"></script>
+</body>
+</html>
 
 </body>
 </html>
+
 
